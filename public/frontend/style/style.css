@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+}
+
+.form-background {
+  background-image: url(../images/VN-vi-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.header,
+.logo {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0, transparent);
+}
+
+form {
+  width: 450px !important;
+  padding: 60px 68px 40px !important;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  min-height: 550px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.form-signin input {
+  width: 100%;
+  background: #333;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.form-signup input {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #fff;
+  outline: none;
+  background-color: unset;
+  margin-bottom: 12px;
+}
+
+.form-signup input:focus-visible {
+  border-bottom: 1px solid #fff;
+}
+
+.btn-submit {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  background: #e50914;
+  padding: 12px;
+  border: 1px solid #e50914;
+}
+
+.home-background {
+  background-image: url(.././../entities/thumbnails-real-images/nfs.jpg);
+  background-size: cover;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.content-title {
+  margin-top: 200px;
+}
+
+.btn-play,
+.btn-mute {
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 100px;
+}
+
+.btn-play:hover,
+.btn-mute:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+}
